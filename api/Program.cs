@@ -23,7 +23,7 @@ app.MapGet("/", () =>
 {
     return "API is working";
 })
-.WithName("GetWeatherForecast");
+.WithName("GetHome");
 
 app.Run();
 
